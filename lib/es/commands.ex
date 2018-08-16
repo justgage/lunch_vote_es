@@ -1,7 +1,7 @@
 defmodule Es.Commands do
 
-  defmodule newLunchVenue do
-    defstruct [:id, :name, :place]
+  defmodule NewLunchVenue do
+    defstruct [:name, :place]
   end
 
   defmodule OpenVoting do
