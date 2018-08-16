@@ -5,7 +5,7 @@ defmodule Es.Aggregates.LunchOpportunity do
   # public command API
 
   @def """
-  This will take a command and return an event or an error
+  This will take a command and return an Es.Event or an {:error, "reason"}
   """
   def execute(own_state, command)
 
